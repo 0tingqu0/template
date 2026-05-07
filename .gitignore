@@ -1,0 +1,24 @@
+# STM32CubeIDE build output
+Debug/
+
+# MDK-ARM / Keil build output
+MDK-ARM/template/
+MDK-ARM/*.lst
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
+
+# Compiled object files
+*.o
+*.elf
+*.hex
+*.bin
+*.axf
+*.d
+*.crf
+*.su
+*.cyclo
+*.map
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
