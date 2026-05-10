@@ -1,24 +1,27 @@
-# STM32CubeIDE build output
+# STM32 Keil MDK Build Artifacts
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.bin
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.map
+MDK-ARM/**/*.lst
+MDK-ARM/**/*.uvguix*
+MDK-ARM/**/*.bak
+MDK-ARM/RTE/
 Debug/
+Release/
 
-# MDK-ARM / Keil build output
-MDK-ARM/template/
-MDK-ARM/*.lst
-MDK-ARM/JLinkLog.txt
-MDK-ARM/JLinkSettings.ini
+# IDE files
+.vscode/
+.settings/
+.cproject
+.project
+.mxproject
 
-# Compiled object files
-*.o
-*.elf
-*.hex
-*.bin
-*.axf
-*.d
-*.crf
-*.su
-*.cyclo
-*.map
-*.dep
-*.lnp
-*.htm
-*.build_log.htm
+# Others
+*.swp
+*.swo
+*~
